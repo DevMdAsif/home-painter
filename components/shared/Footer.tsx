@@ -46,12 +46,12 @@ const Footer = () => {
           <h2 className="text-2xl text-[#1f2937] font-semibold">Contact Us</h2>
           <div className="text-[#6b7280] text-sm space-y-3 mt-5 tracking-tight">
             <p>Jln Cempaka Wangi No 22, Jakarta - Indonesia</p>
-            <p className="inline-flex">
-              <FaEnvelope className="mr-2 mt-1 text-[#009b83] duration-300 hover:text-[#f02e84]" />
+            <p className="inline-flex group cursor-pointer">
+              <FaEnvelope className="mr-2 mt-1 text-[#009b83] duration-300 group-hover:text-[#f02e84]" />
               <span>support@yourdomain.tld</span>
             </p>
-            <p className=" inline-flex">
-              <FaPhoneAlt className="mr-2 mt-1 text-[#009b83] duration-300 hover:text-[#f02e84]" />{" "}
+            <p className=" inline-flex group cursor-pointer">
+              <FaPhoneAlt className="mr-2 mt-1 text-[#009b83] duration-300 group-hover:text-[#f02e84]" />{" "}
               <span>+6221.2002.2012</span>
             </p>
           </div>
